@@ -8,9 +8,9 @@ except Exception as e:
 
 
 user = {'device_type': 'linux',
-   'ip': '192.168.56.107',
-   'password': 'mininet',
-   'username': 'mininet',
+    'ip': '192.168.56.107',
+    'password': 'mininet',
+    'username': 'mininet',
     'secret':'mininet'}
 # print(user)
 user_sdn = {'device_type': 'linux',
@@ -29,8 +29,8 @@ def sdn_controller():
     print(ryu_controller)
     return
 
-connect_main = netmiko.ConnectHandler(**user)
-connect_main.enable()
+#connect_main = netmiko.ConnectHandler(**user)
+#connect_main.enable()
 
 def mininet_init():
    mini='sudo mn'
