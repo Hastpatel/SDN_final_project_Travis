@@ -61,11 +61,11 @@ def controller_connectivity():
    connect3.disconnect()
    return
 
-
+'''
 if __name__=='__main__':
-   #sdn_controller()
-   #mininet_init()
-   #controller_config()
-   #controller_connectivity()
+   sdn_controller()
+   mininet_init()
+   controller_config()
+   controller_connectivity()
    #pingall()
-
+'''

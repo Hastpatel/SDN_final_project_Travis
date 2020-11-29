@@ -42,6 +42,7 @@ def get_ips():
                 interfaces[h[i]][a[0]] = a[1]
     return interfaces
 
-
+'''
 if __name__ == '__main__':
-    #print(get_ips())
+    print(get_ips())
+'''

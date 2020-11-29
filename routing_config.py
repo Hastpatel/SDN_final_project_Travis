@@ -27,6 +27,7 @@ def ospf_conf():
         conn.disconnect()
     return
 
-
+'''
 if __name__ == '__main__':
-    #ospf_conf()
+    ospf_conf()
+'''
