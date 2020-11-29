@@ -1,0 +1,10 @@
+language: python
+python:
+    - "3.8"
+install:
+    - pip install netmiko
+script:
+    - python interface_config.py
+    - python routing_config.py
+    - python ping_test.py
+    - python mininet_config.py
